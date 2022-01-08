@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css?v=<?php echo(rand()); ?>" />
     <script src="/js/mi_script.js?v=<?php echo(rand()); ?>"></script>
 
-    <title>Theffy in Spanish</title>
+    <title>Corrientes Code</title>
 </head>
 <body>
 <header id="main">
