@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+    background-color: #e2dddd;
+  }
+
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #35a700;
+  }
+
+  /*imagen de portada*/
+  .image {
+    position: relative;
+    height: 300px;
+  }
+
+  /*texto sobre la imagen de portada*/
+  .caption {
+    position: absolute; 
+    top: 25%; 
+    left: 0; 
+    width: 100%; 
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+    text-align: center;
+  }
+
+    /*boton sobre la imagen de portada*/
+  .image .btn{
+    position:absolute;
+    left:45%;
+  }
+  .nav li a {
+    display: block;
+    color:#35a700;
+    font: bold;
+    font-family: "Roboto";
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .nav li a:hover {
+    background-color: rgb(36, 33, 33);
+    color: white;
+  }
+  .nav ul {
+    display: -ms-flexbox;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    font-family: "Roboto";
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background-color: #35a700;
+
+  }
+  
+  
+  .navbar-nav .nav-item .nav-link {
+   color:white;
+  }
+  
+  .nav a{
+    padding-top: 150px;
+  }
+
+  #main .navbar{
+    background-color: #35a700;
+  }
+  #cuerpa{
+    background-image: linear-gradient(to right, rgba(17, 0, 255, 0.308) , rgba(0, 174, 255, 0.336));
+
+  }
+
+  /*aca le doy formato al boton redondeado que rodea a las figuras*/
+  .rounded-button{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    background: rgb(209, 165, 22);
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70%;
+  }
+
+    /*tipo de fuente aplicada al texto*/
+  p, h5, h1 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h5{
+    color:#35a700
+  }
+    /*color del fondo del formulario de contacto*/
+ form{
+   background-color: #757575;
+ }
+
+  #cabecera{
+    background-color:rgba(8, 4, 4, 0.38);
+    color:whitesmoke;
+  }
+
+  #cabecera .container-fluid .h1{
+    color:whitesmoke;
+  }
+
